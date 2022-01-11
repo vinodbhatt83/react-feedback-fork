@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "JSON Server for creating the request for feedback form",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 8000"
+  },
+  "author": "Vinod Bhatt",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
